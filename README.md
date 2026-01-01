@@ -27,16 +27,25 @@ Each notebook represents a concept → intuition → implementation → visualiz
 
 📁 Course-3-Unsupervised-Recommenders-RL
 │
+
 ├── 01_kmeans_from_scratch.ipynb
+
 ├── 02_kmeans_anomaly_detection.ipynb
+
 ├── 03_Gaussian_Anomaly_Detection_From_Scratch.ipynb
+
 ├── 04_Collaborative_Filtering_From_Scratch.ipynb
+
 ├── 05_Content_Based_Filtering_From_Scratch.ipynb
+
 ├── 06_Principal_Component_Analysis_From_Scratch.ipynb
+
 ├── 07_Reinforcement_Learning_Fundamentals.ipynb
+
 └── 08_Reinforcement_Learning_with_Neural_Networks.ipynb
 
 🧠 Notebooks Overview
+
 🔹 01. K-Means Clustering (From Scratch)
 
 K-Means algorithm implementation without libraries
