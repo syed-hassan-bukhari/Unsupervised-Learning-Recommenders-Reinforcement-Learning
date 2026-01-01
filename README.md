@@ -25,8 +25,8 @@ Neural Networks for Reinforcement Learning
 
 Each notebook represents a concept → intuition → implementation → visualization learning pipeline.
 
-📁 Course-3-Unsupervised-Recommenders-RL
-│
+📁 Unsupervised-Learning-Recommenders-Reinforcement-Learning
+
 
 ├── 01_kmeans_from_scratch.ipynb
 
