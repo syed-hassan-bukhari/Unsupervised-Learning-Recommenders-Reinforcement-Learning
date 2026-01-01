@@ -1,13 +1,15 @@
 Machine Learning Specialization – Course 3
-Unsupervised Learning, Recommenders & Reinforcement Learning
+Unsupervised Learning, Recommender Systems & Reinforcement Learning
 
 This repository documents my hands-on learning journey through Course 3 of Andrew Ng’s Machine Learning Specialization, focusing on unsupervised learning, anomaly detection, recommender systems, dimensionality reduction, and reinforcement learning.
 
-All algorithms are implemented from scratch wherever possible to deeply understand the math, intuition, and real-world behavior behind modern machine learning systems.
+All algorithms are implemented from scratch wherever possible to deeply understand the mathematics, intuition, and real-world behavior behind modern machine learning systems.
 
 📌 Course 3 Focus Areas
 
 Unsupervised Learning
+
+Clustering (K-Means)
 
 Anomaly Detection
 
@@ -17,14 +19,15 @@ Dimensionality Reduction (PCA)
 
 Reinforcement Learning
 
-Neural Networks for RL
+Neural Networks for Reinforcement Learning
 
 📂 Repository Structure
 
-Each notebook represents a concept → intuition → implementation → visualization pipeline.
+Each notebook represents a concept → intuition → implementation → visualization learning pipeline.
 
 📁 Course-3-Unsupervised-Recommenders-RL
 │
+├── 01_kmeans_from_scratch.ipynb
 ├── 02_kmeans_anomaly_detection.ipynb
 ├── 03_Gaussian_Anomaly_Detection_From_Scratch.ipynb
 ├── 04_Collaborative_Filtering_From_Scratch.ipynb
@@ -34,21 +37,35 @@ Each notebook represents a concept → intuition → implementation → visualiz
 └── 08_Reinforcement_Learning_with_Neural_Networks.ipynb
 
 🧠 Notebooks Overview
+🔹 01. K-Means Clustering (From Scratch)
+
+K-Means algorithm implementation without libraries
+
+Centroid initialization
+
+Distance computation
+
+Cluster assignment and updates
+
+Convergence behavior
+
+Foundation for anomaly detection
+
 🔹 02. K-Means Anomaly Detection
 
 Unsupervised anomaly detection
 
-Distance-based anomaly scoring
+Distance-to-centroid as anomaly score
 
 Threshold selection
 
-Real-world use cases (fraud, monitoring)
+Real-world use cases (fraud detection, system monitoring)
 
 🔹 03. Gaussian Anomaly Detection (From Scratch)
 
 Probabilistic anomaly detection
 
-Gaussian parameter estimation
+Gaussian parameter estimation (mean & variance)
 
 Probability density computation
 
@@ -68,33 +85,37 @@ Personalized recommendations
 
 Item-feature representations
 
-User preference vectors
+User preference modeling
 
-Similarity scoring & cosine similarity
+Similarity scoring
 
-Cold-start friendly recommendation logic
+Cosine similarity for related items
+
+Cold-start friendly recommendations
 
 🔹 06. Principal Component Analysis (PCA)
 
 Mean normalization
 
-Covariance matrix
+Covariance matrix computation
 
 Eigen decomposition
 
-Dimensionality reduction & reconstruction
+Dimensionality reduction
+
+Data reconstruction
 
 🔹 07. Reinforcement Learning Fundamentals
 
 States, actions, rewards
 
-Policies & returns
+Policies and returns
 
 State-value functions
 
 Bellman equation
 
-Deterministic & stochastic environments
+Deterministic and stochastic environments
 
 🔹 08. Reinforcement Learning with Neural Networks
 
@@ -102,7 +123,7 @@ Value function approximation
 
 Bellman targets
 
-Neural networks in RL
+Neural networks for RL
 
 Foundations of Deep Reinforcement Learning
 
@@ -110,7 +131,11 @@ Foundations of Deep Reinforcement Learning
 
 Unsupervised Machine Learning
 
+Clustering Algorithms
+
 Probabilistic Modeling
+
+Anomaly Detection
 
 Recommendation Systems
 
@@ -122,7 +147,7 @@ Neural Networks for RL
 
 From-scratch algorithm implementation
 
-Mathematical intuition → code mapping
+Mathematical intuition → code translation
 
 📊 Tools & Technologies
 
@@ -138,7 +163,7 @@ Jupyter Notebook
 
 🎯 Learning Philosophy
 
-“I don’t just use ML libraries — I rebuild algorithms to understand why they work.”
+“I don’t just apply ML libraries — I rebuild algorithms to understand why they work.”
 
 This repository emphasizes:
 
@@ -162,9 +187,9 @@ Reinforcement Learning
 
 AI automation & intelligent systems
 
-This repo is part of my long-term ML roadmap, leading toward advanced AI systems and agentic workflows.
+This repository reflects my progressive learning path toward advanced AI systems and agentic workflows.
 
-⭐ If you find this useful
+⭐ If You Find This Useful
 
 Star ⭐ the repository
 
